@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    justify-content: center;
 }
 
 #cabecalho {
@@ -9,14 +8,13 @@ body {
     color: #000;
     padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .logo img {
     width: 180px;
     height: auto;
-    margin-right: 10px;
 }
 
 nav ul {
@@ -44,10 +42,12 @@ nav ul li a:hover {
 }
 
 #div-home {
-    margin-top: 100px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 50px auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
 }
 
 #div-home > * {
@@ -59,11 +59,12 @@ nav ul li a:hover {
     text-align: center;
     width: calc(50% - 20px);
 }
-#div-home .text button{
+
+#div-home .text button {
     font-weight: bold;
     display: inline-block;
-    background-color:  hsl(261, 7%, 37%);
-    padding: 15px 25px; 
+    background-color: hsl(261, 7%, 37%);
+    padding: 15px 25px;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -73,18 +74,18 @@ nav ul li a:hover {
     cursor: pointer;
     transition: background-color 0.5s;
 }
-#div-home .text button:hover{
+
+#div-home .text button:hover {
     background-color: hsl(260, 69%, 61%);
 }
 
 #div-home .image {
-    width: calc(50% - 20px); 
-    text-align: right; 
-    justify-content: center;
+    width: calc(50% - 20px);
+    text-align: right;
 }
 
 #div-home img {
-    max-width: 100%; 
+    max-width: 100%;
     width: 210px;
     height: auto;
     border-radius: 15px;
@@ -99,11 +100,12 @@ nav ul li a:hover {
     font-size: 2rem;
     color: hsl(260, 8%, 15%);
 }
-.lista-links a:hover{
+
+.lista-links a:hover {
     color: hsl(260, 69%, 61%);
 }
 
-.li-links{
+.li-links {
     list-style-type: none;
     color: black;
 }
@@ -119,17 +121,18 @@ nav ul li a:hover {
 
     #div-home {
         margin-top: 50px;
-        flex-direction: column; 
+        flex-direction: column;
         align-items: center;
     }
 
     #div-home .text,
     #div-home .image {
-        width: 100%; 
-        text-align: center; 
+        width: 100%;
+        text-align: center;
     }
 
     #div-home img {
         max-height: 80px;
+        width: auto;
     }
 }
