@@ -1,87 +1,3 @@
-/* body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-#cabecalho {
-    background-color: #fff;
-    color: #000;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo img {
-    width: 180px;
-    height: auto;
-    margin-left: 50px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-right: 20px;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-left: 30px;
-}
-
-nav ul li a {
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: hsl( 260 , 69%, 61%);
-}
-
-#div-home {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#div-home > * {
-    margin-bottom: 10px;
-}
-
-#imagem-topo img{
-    width: 18px;
-    height: auto;
-    border-radius: 5px;
-    max-width: 100%;
-    margin-left: 0;
-    margin-top: 20px;
-}
-
-#div-home h1 {
-    font-size: xx-large;
-}
-
-
-@media only screen and (max-width: 600px) {
-    .logo img {
-        width: 100px;
-    }
-
-    nav ul li {
-        margin-left: 10px;
-    }
-
-    #div-home {
-        margin-top: 50px;
-        align-items: flex-start;
-    }
-} */
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -93,14 +9,14 @@ body {
     color: #000;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .logo img {
     width: 180px;
     height: auto;
-    margin-left: 50px;
+    margin-right: 10px;
 }
 
 nav ul {
@@ -169,7 +85,7 @@ nav ul li a:hover {
 
 #div-home img {
     max-width: 100%; 
-    width: 250px;
+    width: 210px;
     height: auto;
     border-radius: 15px;
 }
@@ -177,6 +93,19 @@ nav ul li a:hover {
 #div-home h1 {
     font-size: 3em;
     color: hsl(260, 8%, 15%);
+}
+
+.lista-links a {
+    font-size: 2rem;
+    color: hsl(260, 8%, 15%);
+}
+.lista-links a:hover{
+    color: hsl(260, 69%, 61%);
+}
+
+.li-links{
+    list-style-type: none;
+    color: black;
 }
 
 @media only screen and (max-width: 600px) {
