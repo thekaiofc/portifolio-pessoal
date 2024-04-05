@@ -1,6 +1,7 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+    font-family: "Poppins", sans-serif;
 }
 
 #cabecalho {
@@ -8,7 +9,7 @@ body {
     color: #000;
     padding: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -26,7 +27,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 
 nav ul li a {
