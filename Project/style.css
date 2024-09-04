@@ -142,21 +142,28 @@ nav ul li a:hover {
         background-color: #f9f9f9;
     }
     
-    #about {
+    #div-about {
         display: flex;
         align-items: center;
         justify-content: flex-start; /* Altera para alinhar à esquerda */
         flex-wrap: wrap;
     }
+    #div-about img {
+        max-width: 50%;
+        width: 210px;
+        height: auto;
+        border-radius: 15px;
+    }
     
-    #about-image {
+    #div-about img {
         flex: 1;
-        max-width: 40%;
+        max-height: 100px;
+        max-width: auto;
         text-align: left; /* Altera para alinhar à esquerda */
         margin-right: 20px;
     }
     
-    #about-image img {
+    .image {
         width: 100% !important; /* Garante que a largura seja aplicada */
         max-width: 300px;
         border-radius: 10px;
